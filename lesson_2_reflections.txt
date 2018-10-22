@@ -34,3 +34,12 @@ Diagrams can help to visualize Git's branch structure by demonstrating several
 things. For example, diagrams demonstrate the unidirectional flow of the 
 history log, as all branches connect to parents. Additionally, diagrams can 
 be used to easily visualize the inaccessibility of certain branches.
+
+#What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+The result of merging two branches together is a redefinition of two branches'  
+HEAD, and the inclusion/exclusion of lines according to modifications made in 
+the branches being merged. It is represented as a connection of two HEADS into 
+one HEAD on a Git diagram because, as mentioned previously, a new parent HEAD 
+is formed upon a merge.
