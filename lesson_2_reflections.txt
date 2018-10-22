@@ -43,3 +43,11 @@ HEAD, and the inclusion/exclusion of lines according to modifications made in
 the branches being merged. It is represented as a connection of two HEADS into 
 one HEAD on a Git diagram because, as mentioned previously, a new parent HEAD 
 is formed upon a merge.
+
+#What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Git's automatic merging can be very useful when dealing with situations in 
+which smaller branches need to be combined to create wholesome code. However, 
+manual merging may be superior in situations where large branches containing 
+ample critical changes must be combined.
