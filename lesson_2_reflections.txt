@@ -13,3 +13,9 @@ should be included in the next commit. A working directory contains all
 project files, regardless of whether they will be committed. The ability to 
 distinguish which files should be committed is very useful because a user 
 should always aim to keep the size of his or her commits low.
+
+#How can you use the staging area to make sure you have one commit per 
+logical change?
+
+The staging area can be used to add singular files to the commit, so that 
+large numbers of changes are not being committed at a time.
