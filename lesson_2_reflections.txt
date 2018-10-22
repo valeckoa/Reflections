@@ -27,3 +27,10 @@ Branches can be useful when working on experimental versions of software,
 or versions of software that may become much different than the original 
 master. Branches allow for fast switching between drastically different 
 versions of the same application.
+
+#How do the diagrams help you visualize the branch structure?
+
+Diagrams can help to visualize Git's branch structure by demonstrating several 
+things. For example, diagrams demonstrate the unidirectional flow of the 
+history log, as all branches connect to parents. Additionally, diagrams can 
+be used to easily visualize the inaccessibility of certain branches.
