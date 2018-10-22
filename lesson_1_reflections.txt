@@ -1,0 +1,60 @@
+#How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Typically, I'd have to read the files line-for-line and check for 
+discrepancies. With the "FC" or "diff" commands, I can see lines lines that
+changed immediately.
+
+#How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+There are several ways in which having easy access to the entire history of
+a file might make one more efficient when programming for large projects.
+First, and perhaps most importantly, having access to a complete file 
+history allows for a programmer to roll-back any changes he or she might 
+make accidentally during the design process.
+Another reason that having access to a file's history might be of use to a 
+programmer is that it allows for quick troubleshooting, as files can be 
+rolled backward repeatedly during the debugging process.
+
+#What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Some positives of manually choosing when to commit changes to a project 
+include maintaining the ability to control your commit sizes and 
+maintaining complete control over the history you have access to. Some 
+negatives that come along with a manual commit system, on the other hand, 
+include the introduction of a need to self-monitor, and the possibility 
+that certain commits might be left out or overdrawn.
+
+#Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems such as Git are designed to be used by application 
+developers, while others, such as Google Docs, are not. Application 
+devs, who are much more likely to be working with large numbers of 
+interconnected files than the average Google Docs user, are more likely to 
+require their version control system(s) to track groups of changes across 
+their file repositories.
+
+#How can you use the commands git log and git diff to view the history of files?
+
+The two commands can be used together to compare file histories for entire 
+repositories. Typically, the 'git log' command is used to extract two 
+commit IDs that can be compared with one another using the 'git diff' 
+command. In order to use the 'git log' command, you must be inside of the 
+git directory you wish to view the logs for.
+
+#How might using version control make you more confident to make changes that
+could break something?
+
+Version control, in allowing you to visit any previously committed version 
+of your code that is part of the project log, provides a certain level of 
+flexibility that could not be otherwise achieved without the clutter of 
+manually stored and logged redundancy files.
+
+#Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to try using Git as a supplement to the Android Studio 
+application for Windows.
