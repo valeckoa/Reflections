@@ -19,3 +19,11 @@ logical change?
 
 The staging area can be used to add singular files to the commit, so that 
 large numbers of changes are not being committed at a time.
+
+#What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+Branches can be useful when working on experimental versions of software, 
+or versions of software that may become much different than the original 
+master. Branches allow for fast switching between drastically different 
+versions of the same application.
