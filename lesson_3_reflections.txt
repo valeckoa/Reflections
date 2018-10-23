@@ -8,6 +8,11 @@ highly beneficial to diverse development environments.
 #Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
+It is logical to only allow for manual pulling of changes to users' local 
+repositories because undesired changes may be made to code stored on GitHub. 
+Forcing users to automatically pull all data from GitHub would eliminate the 
+purpose of local repositories entirely.
+
 #Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
