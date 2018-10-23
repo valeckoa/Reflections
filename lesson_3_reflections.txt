@@ -16,8 +16,17 @@ purpose of local repositories entirely.
 #Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
+Branches are different versions of the same project, and can be used to make 
+risky modifications while maintaining a single master branch that operates as 
+intended. Clones are repository copies that can be made either locally or 
+remotely (from Github). Forks are essentially clones that are handled 
+explicitly on GitHub's servers. The purpose of forks is to allow for various 
+users to work on their own version(s) of other users' public directories.
+
 #What is the benefit of having a copy of the last known state of the remote
 stored locally?
+
+
 
 #How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
