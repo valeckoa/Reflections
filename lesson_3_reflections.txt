@@ -33,6 +33,11 @@ not that user has internet access.
 #How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
+Collaboration without Git or GitHub is possible in most cloud storage 
+platforms, such as Google Drive or OneDrive. Seeing live changes to code or 
+other documents would likely be easier without Git, but making sure things 
+are properly written would certainly not be.
+
 #When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
