@@ -26,7 +26,9 @@ users to work on their own version(s) of other users' public directories.
 #What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-
+Having the last known state of the remote stored locally would allow for 
+local changes to be made to commits from the remote, regardless of whether or 
+not that user has internet access.
 
 #How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
