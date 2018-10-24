@@ -41,3 +41,6 @@ are properly written would certainly not be.
 #When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
+Making changes in separate branches, rather than directly changing the master 
+branch, allows for different features to be tested and verified without the 
+necessity of modifying existing, stable code.
